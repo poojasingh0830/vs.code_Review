@@ -1,0 +1,59 @@
+body{
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url("/image2.jpg");
+    height: 600px;
+}
+.pimg2{
+    background-image: url("/image1.jpg");
+    min-height: 500px;
+}
+.pimg3{
+    background-image: url("/image3.jpg");
+    min-height: 500px;
+}
+.pimg4{
+    background-image: url("/image4.jpg");
+    min-height: 500px;
+}
+.pimg1 ,.pimg2 ,.pimg3 ,.pimg4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.textbg{
+    color: white;
+    background-color: rgb(32, 25, 25);
+    padding: 20px;
+
+}
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: rgb(247, 239, 239);
+    color: rgba(78, 74, 74, 0.553);
+}
+.section-dark{
+    background-color: rgb(6, 6, 6);
+    color: rgba(252, 245, 245, 0.923);
+}
